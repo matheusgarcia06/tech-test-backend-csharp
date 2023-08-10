@@ -1,0 +1,66 @@
+# Arquivos compilados do Visual Studio
+*.dll
+*.pdb
+*.exe
+*.msi
+*.user
+*.build.cs
+
+# Arquivos de saída do Visual Studio
+obj/
+bin/
+
+# Arquivos do NuGet
+packages/
+
+# Cache do Rider
+.idea/
+
+# Logs e arquivos temporários
+*.log
+*.vs/
+*.vscode/
+
+# Arquivos gerados pela execução do build
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.log
+*.htm
+*.zip
+*.xls
+*.xlsx
+*.suo
+*.user
+*.webinfo
+*.config.user
+*.loadtest
+TestResults/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+sql/
+TestResults/
+[Bb]uild/
+[Nn]ode_modules/
+
+# Dependências e pacotes do .NET
+project.lock.json
+project.assets.json
