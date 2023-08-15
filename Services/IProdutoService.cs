@@ -7,8 +7,9 @@ namespace TechTestBackendCSharp.Services
     {
         Task<IEnumerable<Produto>> ObterTodosProdutosAsync();
         Task<Produto> ObterProdutoPorIdAsync(int id);
-        Task<IEnumerable<Produto>> CadastrarProdutoAsync(ProdutoViewModel novoProduto);
-        Task<Produto> AtualizarProdutoPorIdAsync(int id, ProdutoViewModel produtoAtualizado);
+        Task<Produto> CadastrarProdutoAsync(Produto novoProduto);
+        Task<Produto> AtualizarProdutoPorIdAsync(int id, Produto produtoAtualizado);
         Task<Produto> DeletarProdutoPorIdAsync(int id);
+        Task<Produto> DeletarProdutosPorIdEStatusAsync(int id);
     }
 }

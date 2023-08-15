@@ -1,4 +1,7 @@
-﻿namespace TechTestBackendCSharp.Models
+﻿using System.ComponentModel.DataAnnotations;
+using TechTestBackendCSharp.Enums;
+
+namespace TechTestBackendCSharp.Models
 {
     public class Produto
     {
@@ -7,6 +10,10 @@
         public decimal Preco { get; set; }
         public int QuantidadeEmEstoque { get; set; }
         public DateTime DataDeCriacao { get; set; }
-        public decimal ValorTotal => Preco * QuantidadeEmEstoque;
+        public decimal ValorTotal
+        {
+            get {return  Preco* QuantidadeEmEstoque; }
+        }
+        public StatusProduto Status { get; set; }
     }
 }
